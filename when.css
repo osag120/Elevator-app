@@ -1,0 +1,35 @@
+body{
+    background-color: red;
+}
+
+#vids{
+  color: #ffff00;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#nam{
+ color: rgb(215, 240, 76);
+ font-size: xx-large;
+ text-align: center;
+
+}
+
+.video{
+  display: flex;
+  justify-content: space-between;
+   flex-direction: column; 
+   padding: 250px;
+}
+
+.mass{
+  padding-bottom: 80px;
+}
+
+.sum{
+  padding-top: 80px;
+}
+
+.btn{
+  font-size: 37px;
+}

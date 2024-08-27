@@ -1,0 +1,90 @@
+.go{
+    font-size: xx-large;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: blueviolet;
+}
+
+  
+
+
+
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    background-color: blueviolet; 
+    list-style: none; 
+    list-style-type: none;  
+    padding-left: 200px;
+    padding-right: 200px;
+    border-radius: 700px;
+    /* padding-top: 20px; */
+    /* padding-bottom: 20px; */
+    height: 50px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+a{
+    color: white;
+    background-color: black;
+    padding-left: 9px;
+    padding-right: 9px;
+    justify-content: space-between;
+    /* height: 30px; */
+    border-radius: 700px;
+    /* margin-top: 10px; */
+    padding-bottom:  2px;
+    font-size: 40px;
+}
+
+
+
+
+a:hover{
+    background-color: red;
+    height: 30px;
+}
+
+
+
+
+
+
+
+
+
+body{
+    background-image: url("data:image/jpeg;base64,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");
+   
+
+}
+
+.bing{
+    color: cornflowerblue;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: xx-large;
+    background-color: red;
+}
+
+#op{
+    text-align: center;
+    background-image: linear-gradient(red,rgb(27, 197, 98),blue);
+    font-size: xx-large;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
